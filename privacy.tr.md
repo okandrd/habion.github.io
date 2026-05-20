@@ -1,3 +1,9 @@
+---
+title: Gizlilik Politikası
+nav_order: 3
+permalink: /privacy.tr/
+---
+
 # Habion — Gizlilik Politikası
 
 _Yürürlük tarihi: 20 Mayıs 2026_

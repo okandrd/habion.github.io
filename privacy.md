@@ -1,3 +1,9 @@
+---
+title: Privacy Policy
+nav_order: 2
+permalink: /privacy/
+---
+
 # Habion — Privacy Policy
 
 _Effective date: May 20, 2026_

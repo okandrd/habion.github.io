@@ -1,21 +1,42 @@
-title: Habiton
+title: Habion
 description: A minimal, privacy-first habit tracker for iOS and Android.
 
-# Pretty URLs: `/privacy/` instead of `/privacy.html`.
+# Use just-the-docs as a remote theme so we don't need a Gemfile.
+# https://github.com/just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+# Required for remote_theme on GitHub Pages.
+plugins:
+  - jekyll-remote-theme
+
+# Pretty URLs: /privacy/ instead of /privacy.html
 permalink: /:basename/
 
-# Markdown engine (default on GitHub Pages, kept explicit for clarity).
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
 
-# Use the default GitHub-Pages-friendly theme.
-theme: jekyll-theme-minimal
+# Brand / UI
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
 
-# Keep developer/internal files out of the published site.
+# Hide every repo-related UI element.
+# (We deliberately do not set gh_edit_link, gh_edit_repository, etc.)
+aux_links: {}
+nav_external_links: []
+back_to_top: false
+
+# Footer override — no GitHub mentions, no "made with Jekyll" by default.
+footer_content: "© 2026 Habion. Made with care. No ads. No data harvesting."
+
+# Keep developer / system files out of the published site.
 exclude:
   - .git
   - .gitignore
   - LICENSE
   - "*.bak"
+  - Gemfile
+  - Gemfile.lock
+  - vendor

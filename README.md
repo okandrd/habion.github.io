@@ -1,3 +1,10 @@
+---
+title: Home
+layout: home
+nav_order: 1
+permalink: /
+---
+
 # Habion
 
 > **Build the habits that matter — without the clutter.**

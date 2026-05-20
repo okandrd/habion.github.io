@@ -1,3 +1,9 @@
+---
+title: Yardım & Destek
+nav_order: 5
+permalink: /support.tr/
+---
+
 # Habion — Yardım & Destek
 
 Uygulamayı sade tutmaya çalışıyoruz, çoğu sorunun cevabı kısa. Aradığını aşağıda bulamazsan bize yaz.

@@ -1,3 +1,9 @@
+---
+title: Help & Support
+nav_order: 4
+permalink: /support/
+---
+
 # Habion — Help & Support
 
 We try to keep the app simple, so most questions have a quick answer. If you don't see what you need below, drop us a line.
