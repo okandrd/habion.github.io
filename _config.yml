@@ -1,0 +1,21 @@
+title: Habiton
+description: A minimal, privacy-first habit tracker for iOS and Android.
+
+# Pretty URLs: `/privacy/` instead of `/privacy.html`.
+permalink: /:basename/
+
+# Markdown engine (default on GitHub Pages, kept explicit for clarity).
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Use the default GitHub-Pages-friendly theme.
+theme: jekyll-theme-minimal
+
+# Keep developer/internal files out of the published site.
+exclude:
+  - .git
+  - .gitignore
+  - LICENSE
+  - "*.bak"

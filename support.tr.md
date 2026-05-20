@@ -75,7 +75,7 @@ Manuel dışa aktarma henüz mevcut değil — yaklaşan Premium sürümün bir 
 Uygulamayı kaldır. Veri yalnızca cihazında olduğu için uygulamayı kaldırmak her şeyi siler.
 
 **Gizlilik politikanızı nerede okuyabilirim?**
-[Gizlilik Politikası](./privacy.tr.md) sayfasına bak.
+[Gizlilik Politikası](./privacy.tr) sayfasına bak.
 
 ### Premium
 

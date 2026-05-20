@@ -1,57 +1,65 @@
-# Habion — Legal & Support pages
+# Habion
 
-Markdown sources for the public-facing legal documents required by the
-Apple App Store and Google Play Store.
+> **Build the habits that matter — without the clutter.**
+> A minimal, privacy-first habit tracker for iOS and Android.
 
-| File | Language | Submit as |
-| --- | --- | --- |
-| `privacy.md` | English | Privacy Policy URL (default locale) |
-| `privacy.tr.md` | Türkçe | Privacy Policy URL (tr locale) |
-| `support.md` | English | Support URL (default locale) |
-| `support.tr.md` | Türkçe | Support URL (tr locale) |
+---
 
-## Before submitting to a store
+## What is Habion?
 
-1. **Replace placeholders**
-   - `Ininia` → your real legal name or company
-   - `support@habion.app` → a real, monitored email address
-2. **Update the "Effective date" / "Yürürlük tarihi"** if you make material changes later.
+Habion is a clean, distraction-free habit tracker. Tap once to check in, long-press to undo, watch your streaks grow. No accounts. No cloud. No ads. Your habit data lives **only on your device**.
 
-## Hosting options
+### Highlights
 
-### A. GitHub Pages (recommended, free)
+- **One-tap check-in** — friction-free daily tracking
+- **Streaks, weekly progress and a heatmap** — see your consistency at a glance
+- **Multiple completions per day** — perfect for water, study sessions or workout reps
+- **Per-habit reminders** — native time picker, 12-hour or 24-hour
+- **Gentle daily motivation** — two thoughtful nudges per day
+- **Beautiful dark UI** — designed for everyday use
+- **Local-first privacy** — no account, no cloud sync, no ads, no tracking SDKs
+- **5 languages** — English, Türkçe, Français, Español, Deutsch
 
-1. Push this repository (or a public mirror) to GitHub.
-2. In the repo: **Settings → Pages → Source = "Deploy from a branch"**, branch `main`, folder `/docs`.
-3. After ~1 minute, the URLs become:
-   - `https://<your-user>.github.io/<repo>/legal/privacy`
-   - `https://<your-user>.github.io/<repo>/legal/privacy.tr`
-   - `https://<your-user>.github.io/<repo>/legal/support`
-   - `https://<your-user>.github.io/<repo>/legal/support.tr`
-4. Optional: add a `CNAME` file pointing to a custom domain like `habion.app`.
+---
 
-### B. Notion / Bear / any markdown host
+## Download
 
-These markdown files are plain CommonMark — paste into a Notion public page,
-Bear web export, or similar service. The store reviewers just need a public
-HTTPS URL that renders the content; the source format does not matter.
+| Store | Status |
+| --- | --- |
+| 🍎 **Apple App Store** | Coming soon |
+| 🤖 **Google Play Store** | Coming soon |
 
-### C. Custom site
+> The app is in final review. If you'd like an early TestFlight invite, drop us an email at the address below.
 
-If you ship a marketing site (`habion.app`), serve these pages as
-`/privacy` and `/support` (with `/privacy/tr` etc. for localized variants).
+---
 
-## Submitting to the stores
+## Help & legal
 
-### App Store Connect
-- **App Privacy → Privacy Policy URL** = privacy URL (per default locale).
-- **App Information → Support URL** = support URL.
-- Add localized URLs for the `tr` (and any other) locale via
-  **App Store → App Information → Localizations**.
+| Page | Language |
+| --- | --- |
+| [Privacy Policy](./privacy) | English |
+| [Gizlilik Politikası](./privacy.tr) | Türkçe |
+| [Help & Support](./support) | English |
+| [Yardım & Destek](./support.tr) | Türkçe |
 
-### Google Play Console
-- **Policy → App content → Privacy Policy** = privacy URL.
-- **Store presence → Main store listing → Contact details** = support
-  email and URL.
-- Add per-language listings under **Store presence → Custom store
-  listings / Localizations**.
+---
+
+## Türkçe özet
+
+**Habion**, dikkat dağıtmayan sade bir alışkanlık takip uygulamasıdır. Tek dokunuşla check-in yap, geri almak için uzun bas, serilerin büyüsün. Hesap yok, bulut yok, reklam yok. Alışkanlık verilerin **yalnızca cihazında** kalır.
+
+**Öne çıkanlar:** günlük seri, 30/90/365 günlük ısı haritası, günde birden fazla tamamlama, isteğe bağlı hatırlatma (12/24 saat), günde iki nazik motivasyon bildirimi, karanlık arayüz, 5 dil desteği.
+
+iOS ve Android için yakında. Erken TestFlight daveti için aşağıdaki adrese yaz.
+
+---
+
+## Contact
+
+📧 **support@habion.app**
+
+For bug reports, feature requests, press inquiries, or just to say hi.
+
+---
+
+<sub>© 2026 Habion. Made with care. No ads. No data harvesting.</sub>

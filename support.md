@@ -75,7 +75,7 @@ Manual export isn't available yet — it's planned as part of the upcoming Premi
 Uninstall the app. Because data lives only on your device, removing the app removes everything.
 
 **Where can I read your privacy policy?**
-See the [Privacy Policy](./privacy.md).
+See the [Privacy Policy](./privacy).
 
 ### Premium
 
